@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/new-event.css" />
+    <title>Formulaire Events</title>
+  </head>
+  <body>
+    <div id="content-form">
+      <h1>
+        <img src="../assets/images/favicon-32x32.png" alt="Coeur Vert" />
+        Formulaire d'ajout d'événement
+        <img src="../assets/images/favicon-32x32.png" alt="Coeur Vert" />
+      </h1>
+      <a id="accueil" href="../index.html">Page d'accueil</a>
+      <form id="form">
+        <ul>
+          <li>
+            <label for="name"> Nom de l'event </label>
+            <input type="text" id="name" name="event_name" placeholder="Nom" />
+          </li>
+          <li>
+            <label for="organizer"> Organisateur de l'event</label>
+            <input
+              type="text"
+              id="organizer"
+              name="organizer"
+              placeholder="Organisateur"
+            />
+          </li>
+          <li>
+            <label for="type">Type de l'event </label>
+            <input
+              type="text"
+              id="type"
+              name="event_type"
+              placeholder="Type "
+            />
+          </li>
+          <li>
+            <label for="capacity"> Capacité d'accueil</label>
+            <input
+              type="number"
+              id="capacity"
+              name="capacity"
+              placeholder="Capacité"
+            />
+          </li>
+          <li>
+            <label for="date">Date de l'event</label>
+            <input type="date" id="date" name="event_date" />
+          </li>
+          <li>
+            <label for="time">l'heure de l'event</label>
+            <input type="time" id="time" name="event_time" />
+          </li>
+          <li>
+            <label for="adress">Adresse de l'event</label>
+            <input
+              type="text"
+              id="adress"
+              name="address"
+              placeholder="Adresse"
+            />
+          </li>
+          <li>
+            <label for="postal">Code postal de l'event</label>
+            <input
+              type="text"
+              id="postal"
+              name="city"
+              placeholder="Code postal"
+            />
+          </li>
+          <li>
+            <label for="pays">Pays de l'event</label>
+            <input type="text" id="pays" name="country" placeholder="Pays" />
+          </li>
+          <li>
+            <label for="lat">Latitude de l'event</label>
+            <input
+              step="0.01"
+              type="number"
+              id="lat"
+              name="latitude"
+              placeholder="latitude"
+            />
+          </li>
+          <li>
+            <label for="long">Longitude de l'event</label>
+            <input
+              step="0.001"
+              type="number"
+              id="long"
+              name="longitude"
+              placeholder="longitude"
+            />
+          </li>
+          <li>
+            <label for="price">Tarif de l'event</label>
+            <input
+              step="0.01"
+              min="0"
+              type="number"
+              id="price"
+              name="pricz"
+              placeholder="tarif"
+            />
+          </li>
+          <li>
+            <label for="image">Choisissez une image </label>
+            <input type="file" id="image" name="cover" accept="image/*" />
+          </li>
+        </ul>
+        <button id="submit" type="submit">Envoyez</button>
+      </form>
+    </div>
+    <script src="../assets/js/new-event.js" type="module"></script>
+  </body>
+</html>

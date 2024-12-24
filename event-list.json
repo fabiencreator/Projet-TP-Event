@@ -1,0 +1,119 @@
+{
+  "events": [
+    {
+      "id": "01",
+      "event_name": "Rock Night Festival",
+      "event_type": "Concert",
+      "capacity": 5000,
+      "participants": 4200,
+      "event_date": "2025-08-17",
+      "event_time": "20:00",
+      "organizer": "Live Nation Events",
+      "price": 49.99,
+      "position": {
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "address": "Parc de la Villette, 211 Avenue Jean Jaurès",
+        "city": "75019 Paris",
+        "country": "France"
+      },
+      "cover": "../assets/images/rock-night.jpg"
+    },
+    {
+      "id": "02",
+      "event_name": "Jazz & Blues Soirée",
+      "event_type": "Concert",
+      "capacity": 1200,
+      "participants": 950,
+      "event_date": "2025-05-10",
+      "event_time": "19:30",
+      "organizer": "Smooth Vibes Org.",
+      "price": 29.5,
+      "position": {
+        "latitude": 43.6045,
+        "longitude": 1.4442,
+        "address": "Le Bikini, Rue Théodore Monod",
+        "city": "31520 Ramonville-Saint-Agne",
+        "country": "France"
+      },
+      "cover": "../assets/images/jazz-bleus.jpg"
+    },
+    {
+      "id": "03",
+      "event_name": "Electronic Beats Night",
+      "event_type": "Concert",
+      "capacity": 3000,
+      "participants": 2800,
+      "event_date": "2025-06-05",
+      "event_time": "22:00",
+      "organizer": "EDM France",
+      "price": 59,
+      "position": {
+        "latitude": 45.764,
+        "longitude": 4.8357,
+        "address": "La Sucrière, 49-50 Quai Rambaud",
+        "city": "69002 Lyon",
+        "country": "France"
+      },
+      "cover": "../assets/images/electronic-beats-night.jpg"
+    },
+    {
+      "id": "04",
+      "event_name": "Classical Music Gala",
+      "event_type": "Concert",
+      "capacity": 800,
+      "participants": 750,
+      "event_date": "2025-03-12",
+      "event_time": "18:00",
+      "organizer": "Orchestra Events Ltd.",
+      "price": 39.99,
+      "position": {
+        "latitude": 48.1173,
+        "longitude": -1.6778,
+        "address": "Opéra de Rennes, Place de la Mairie",
+        "city": "35000 Rennes",
+        "country": "France"
+      },
+      "cover": "../assets/images/classical-music.jpg"
+    },
+    {
+      "id": "05",
+      "event_name": "Indie Vibes Live",
+      "event_type": "Concert",
+      "capacity": 1500,
+      "participants": 1300,
+      "event_date": "2025-11-15",
+      "event_time": "21:00",
+      "organizer": "IndieLive Collective",
+      "price": 35,
+      "position": {
+        "latitude": 43.2965,
+        "longitude": 5.3698,
+        "address": "Le Dôme, 48 Avenue de Saint-Just",
+        "city": "13004 Marseille",
+        "country": "France"
+      },
+      "cover": "../assets/images/indie-Vibe.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "ad2b",
+      "username": "superuser",
+      "password": "superuser1234",
+      "role": "superadmin"
+    },
+    {
+      "id": "6bb7",
+      "username": "admin",
+      "password": "admin1234",
+      "role": "admin"
+    },
+    {
+      "id": "ddbf",
+      "username": "user",
+      "password": "user1234",
+      "role": "user"
+    }
+  ]
+}

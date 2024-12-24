@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+}
+img {
+    width: 700px;
+}
+h1, h2, h3, p, i {
+    letter-spacing: 0.1rem;
+}
+h1, h2, h3 {
+    
+    font-family: "Amaranth", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  color: orange;
+}
+#nav {
+display: flex;
+justify-content: space-evenly;
+}
+a {
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: black;
+}
+h1 {
+    color: rgb(236, 158, 56);
+    font-size: 2.5rem;
+}
+p {
+    word-spacing: 0.2rem;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+i {
+    background-color: rgb(236, 158, 56);
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+/* #content-parent {
+    display: flex;
+} */
+#map-text {
+    display: flex;
+}
+#text{
+    width: 60%;
+}
+#map { 
+    height: 200px; 
+width: 40%;
+}
+#button-remove {
+    display: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: black;
+    border: solid 1px red;
+    background-color: rgb(226, 13, 13);
+}
+#button-reserve {
+    visibility: hidden;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}

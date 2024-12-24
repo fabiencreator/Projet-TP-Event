@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/detail.css" />
+    <!-- -----------Map-------- -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <title>Evénements</title>
+  </head>
+  <body>
+    <div id="nav">
+      <a id="indexAccueil" href="../index.html">Accueil</a>
+      <button id="button-remove">Supprimer l'événement</button>
+    </div>
+    <div id="content-detail"></div>
+    <div id="timeEvent"></div>
+    <button id="button-reserve">Réservation</button>
+
+    <script src="/conpenents/detail-card.js" type="module"></script>
+    <script src="../assets/js/detail.js" type="module"></script>
+
+    <!-- -----------MAP-------- -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+  </body>
+</html>

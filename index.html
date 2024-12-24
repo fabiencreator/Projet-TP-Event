@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Accueil</title>
+  </head>
+  <body>
+    <div id="content-href">
+      <ul>
+        <a id="formusers" href="./pages/users.html">Utilisateurs</a>
+        <a id="form-accueil" href="./pages/new-event.html"
+          >Formulaire d'ajout d'événement</a
+        >
+        <a id="formCo" href="#">connexion</a>
+        <a id="formins" href="#">inscription</a>
+        <a id="form-deco" href="#">deconnexion</a>
+      </ul>
+    </div>
+    <!-- ---------------formulaire de connexion------------------ -->
+    <div id="connection">
+      <div id="connetion-children">
+        <form id="login-form">
+          <ul>
+            <li>
+              <label for="username"> Nom d'utilisateur</label>
+              <input
+                required
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Nom d'utilisateur"
+              />
+            </li>
+            <li>
+              <label for="password"> Mot de passe</label>
+              <input
+                required
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Mot de passe"
+              />
+            </li>
+          </ul>
+          <button id="sub" type="submit">Connection</button>
+          <a id="annulerco" href="./index.html">Annuler</a>
+        </form>
+      </div>
+    </div>
+    <!-- -----------------------------Formulaire d'inscription------------------------- -->
+    <div id="inscription">
+      <div id="inscription-children">
+        <form id="incription-form">
+          <ul>
+            <li>
+              <label for="username"> Nom d'utilisateur</label>
+              <input
+                required
+                minlength="4"
+                type="text"
+                id="usernameins"
+                name="username"
+                placeholder="Nom d'utilisateur"
+              />
+            </li>
+            <li>
+              <label for="password"> Mot de passe</label>
+              <input
+                required
+                minlength="4"
+                type="password"
+                id="passwordins"
+                name="password"
+                placeholder="Mot de passe"
+              />
+            </li>
+          </ul>
+          <button id="ins" type="submit">inscritpion</button>
+          <a id="annulerins" href="./index.html">Annuler</a>
+        </form>
+      </div>
+    </div>
+    <h1>Agence événementielle</h1>
+    <div id="content-newEvent"></div>
+    <script src="./assets/js/index.js" type="module"></script>
+  </body>
+</html>
